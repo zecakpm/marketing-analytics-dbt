@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS metadata
+.DS_Store
+
+# dbt artifacts
+dbt_packages/
+logs/
+target/
+manifest.json
+*.dbt
+
+# dbt profile (optional – to avoid leaking credentials)
+~/.dbt/
