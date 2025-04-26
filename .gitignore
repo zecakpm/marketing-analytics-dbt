@@ -1,5 +1,5 @@
 # Virtual environment
-venv/
+mkt_venv/
 
 # Python cache
 __pycache__/
@@ -17,3 +17,5 @@ manifest.json
 
 # dbt profile (optional – to avoid leaking credentials)
 ~/.dbt/
+
+.vscode/
